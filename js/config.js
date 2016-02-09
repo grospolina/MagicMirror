@@ -12,7 +12,7 @@ var config = {
             q: 'Schiffweiler, DE',
             units: 'metric',
             // if you want a different lang for the weather that what is set above, change it here
-            lang: lang,
+            lang: 'de',
             APPID: 'YOUR_FREE_OPENWEATHER_API_KEY'
         }
     },
@@ -21,25 +21,25 @@ var config = {
         fadeInterval: 4000,
         morning: [
             'Guten Morgen Lieblingsmensch!',
-            'Genieße den Tag!',
+            'GenieÃŸe den Tag!',
             'Hast du gut geschlafen?'
         ],
         afternoon: [
-            'Hallo schönes Wesen!',
+            'Hallo schÃ¶nes Wesen!',
             'Du siehst aber gut aus!',
             'Schick schick!'
         ],
         evening: [
             'Wow, da werden meine Schaltkreise ganz warm!',
-            'Schönes Ding!',
+            'SchÃ¶nes Ding!',
             'Hi, sexy!'
         ]
     },
     calendar: {
         maximumEntries: 10, // Total Maximum Entries
 		displaySymbol: false,
-		defaultSymbol: 'calendar', // Fontawsome Symbol see http://fontawesome.io/cheatsheet/
-        urls: [
+		defaultSymbol: 'calendar'//, // Fontawsome Symbol see http://fontawesome.io/cheatsheet/
+        //urls: [
 		// {
 			// symbol: 'calendar-plus-o', 
 			// url: 'https://p01-calendarws.icloud.com/ca/subscribe/1/n6x7Farxpt7m9S8bHg1TGArSj7J6kanm_2KEoJPL5YIAk3y70FpRo4GyWwO-6QfHSY5mXtHcRGVxYZUf7U3HPDOTG5x0qYnno1Zr_VuKH2M'
@@ -60,7 +60,7 @@ var config = {
 			// symbol: 'venus-mars',
 			// url: "https://server/url/to/theirs.ics",
 		// },
-		]
+		//]
     },
     news: {
         feed: 'http://www.tagesschau.de/xml/rss2'
